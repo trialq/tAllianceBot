@@ -1,0 +1,29 @@
+{
+    "context": "client",
+    "identifier": "com.pa.trialq.tAllianceBot",
+    "display_name": "Alliance Bot",
+    "description": "Writes dynamic alliances in chat whenever they change, so spectators know who's allied (players need to have the mod)",
+    "author": "trialq",
+    "version": "0.1",
+    "build": "68767",
+    "date": "2014/07/20",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/62078/",
+    "category": [
+        "in-game",
+        "ui"
+    ],
+    "scenes": {
+        "live_game": [
+            "coui://ui/mods/tAllianceBot/live_game/init.js"
+        ],
+        "live_game_chat": [
+            "coui://ui/mods/tAllianceBot/live_game_chat/init.js"
+        ],
+        "live_game_players": [
+            "coui://ui/mods/tAllianceBot/live_game_players/init.js"
+        ]
+    },
+    "priority": 100,
+    "enabled": true
+}
